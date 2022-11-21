@@ -8,7 +8,7 @@ import { AppRouter } from './router/AppRouter';
 export const App = () => {
   return (
     <>
-      <NavBar />
+      
       <Sidebar />
       <AppRouter />
           
