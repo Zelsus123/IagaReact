@@ -1,8 +1,7 @@
-.content{
+.content {
     display: flex;
     position: fixed;
     top: 70px;
-  
     width: 80%;
     box-shadow: 0 0 5px rgba(147, 204, 147, 0.566);
     background-color: #fff;
@@ -12,18 +11,15 @@
     overflow: scroll;
     z-index: 1;
 
-    .PageTitle{
+    .page_title {
         color: rgba(49, 182, 49, 0.815);
         margin-top: 15px;
         margin-left: 80px;
         
     }
-    
- 
-
 }
 
-.content::-webkit-scrollbar{
+.content::-webkit-scrollbar {
     width: 0.5px;
 }
 

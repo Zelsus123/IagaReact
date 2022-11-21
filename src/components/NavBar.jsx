@@ -1,31 +1,31 @@
-import "./css/styles.css";
+import { useState } from "react";
+
 import {
   RiMenu2Fill,
   RiSearch2Line,
   RiNotification4Line,
   RiCheckboxBlankCircleFill,
 } from "react-icons/ri";
-import { useState } from "react";
+import "../css/styles.css";
 
-export default function NavBar() {
+
+export const NavBar = () => {
   const [searchBar, setSearchbar] = useState(false);
   const [profile, setProfile] = useState(false)
   const [notifications, setNotifications] = useState(false)
 
   const handleNotifications = ()=>{
     setNotifications(!notifications)
-    
   }
 
   const handleProfile = () =>{
     setProfile(!profile)
-    
-    
   }
 
   const handleSearchBar = () => {
     setSearchbar(!searchBar);
   };
+
   return (
     <div className="navbarGeneral">
     <div className="navbar">
@@ -82,7 +82,6 @@ export default function NavBar() {
       <div className="profileNav" onClick={handleProfile}>
            CERRAR SESION
       </div>
-
 
     </div>
      : ""}

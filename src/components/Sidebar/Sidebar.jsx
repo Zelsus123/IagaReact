@@ -1,7 +1,7 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import {FaBars} from 'react-icons/fa'
-import Links from '../data/data.jsx'
-import Item from '../Item/Index.jsx'
+import { Links } from '../../data/data.jsx'
+import { Item } from '../Item/Index.jsx'
 import {
   sidebar,
   sidebarOpen,
@@ -10,9 +10,9 @@ import {
   profileImage,
   nombre
 } from './styles.module.scss'
- 
 
-function Sidebar() {
+
+export const Sidebar = () => {
   const [open, setOpen] = useState(false)
   return (
     <div className={open ? sidebarOpen : sidebar}>
@@ -25,8 +25,8 @@ function Sidebar() {
           {Links.map(({text, to, icon}) => <Item open={open} text={text} to={to} icon={icon} key={to}>{text}</Item> )}
         </div>
       </div>
-      </div>
-  )
+    </div>
+    )
 }
 
-export default Sidebar
+ 

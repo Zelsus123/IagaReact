@@ -1,10 +1,20 @@
-import {FaHome, FaEdit, FaPaperPlane, FaCalendarAlt, FaFolderOpen, FaPencilAlt, FaTachometerAlt, FaQuestion} from 'react-icons/fa'
-const Links = [
+import {
+    FaHome,
+    FaEdit,
+    FaPaperPlane,
+    FaCalendarAlt,
+    FaFolderOpen,
+    FaPencilAlt,
+    FaTachometerAlt,
+    FaQuestion
+} from 'react-icons/fa'
+
+export const Links = [
     {
         to: '/panel',
         text: 'Inicio',
         icon: <FaHome/>,
-        },
+    },
     {
         to: '/denuncias',
         text: 'Denuncias',
@@ -40,6 +50,4 @@ const Links = [
         text: 'Preguntas Frecuentes',
         icon: <FaQuestion/>
     },
-]
-
-export default Links
+];
