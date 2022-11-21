@@ -1,4 +1,4 @@
-import {content, page_title} from './styles.module.scss'
+import {content, page_title } from '../css/styles.module.scss'
 
 
 export const Dashboard = () => {
