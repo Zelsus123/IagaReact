@@ -1,17 +1,15 @@
 .sidebar{
-    margin-top: 70px;
-    width: 60px;
-    height: 90vh;
+    // margin-top: 70px;
+    width: calc(5rem - 10px);
+    height: calc(100vh - 3rem);
     background-color: rgba(49, 182, 49, 0.815);
     transition-duration: .3s;
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: fixed;
+    // position: fixed;
     border-radius: 0 15px 15px 0;
     z-index: 1;
-
-    ;
 
     .hamburguer{
         color: white;
@@ -48,15 +46,14 @@
 
 
 .sidebarOpen{
-    position: fixed;
-    margin-top: 70px;
+    // position: fixed;
+    // margin-top: 70px;
     width: 200px;
-    height: 90vh;
+    height: calc(100vh - 3rem);
     background-color: rgba(49, 182, 49, 0.815);
     transition-duration: .1s;
     border-radius: 0 15px 15px 0;
     z-index: 1;
-    
 
     .linksContainer{
         display: flex;

@@ -1,25 +1,25 @@
-.content {
-    display: flex;
-    position: fixed;
-    top: 70px;
-    width: 80%;
-    box-shadow: 0 0 5px rgba(147, 204, 147, 0.566);
-    background-color: #fff;
-    height: 90vh;
-    border-radius: 2%;
-    text-justify: center;
-    overflow: scroll;
-    z-index: 1;
+// .content {
+//     display: flex;
+//     position: fixed;
+//     top: 70px;
+//     width: 80%;
+//     box-shadow: 0 0 5px rgba(147, 204, 147, 0.566);
+//     background-color: #fff;
+//     height: 90vh;
+//     border-radius: 2%;
+//     text-justify: center;
+//     overflow: scroll;
+//     z-index: 1;
 
-    .page_title {
-        color: rgba(49, 182, 49, 0.815);
-        margin-top: 15px;
-        margin-left: 80px;
+//     .page_title {
+//         color: rgba(49, 182, 49, 0.815);
+//         margin-top: 15px;
+//         margin-left: 80px;
         
-    }
-}
+//     }
+// }
 
-.content::-webkit-scrollbar {
-    width: 0.5px;
-}
+// .content::-webkit-scrollbar {
+//     width: 0.5px;
+// }
 

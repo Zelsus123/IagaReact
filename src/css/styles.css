@@ -4,13 +4,28 @@
     text-decoration: none;
 }
 
+html {
+    overflow-y: hidden;
+}
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     height: 100vh;
 }
 
+/* GENERALES */
+
+.container {
+    margin: 10px;
+}
+
+.d-flex {
+    display: flex;
+}
+
 .navbarGeneral{
-    position: fixed;
+    /* ! error */
+    /* position: fixed; */
     width: 100%;
     transition: 0.5s;
 }
@@ -147,6 +162,9 @@ align-items: center;
     left: -16px;
     font-size: 12px;
 }
+
+/* Layout */
+
 
 .profile{
     align-items: center;
